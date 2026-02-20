@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+.value {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+canvas {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.leaderboard {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.leaderboard h2 {
+  color: #2e7d32;
+}
+
+#leaderboard-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.admin-login {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.admin-login h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#loginForm input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#loginForm button {
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#loginForm button:hover {
+  background-color: #1b5e20;
+}
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}

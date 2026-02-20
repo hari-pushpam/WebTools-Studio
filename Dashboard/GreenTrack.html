@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenTrack Dashboard</title>
+ <link rel="stylesheet" href="GreenTrack.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌱 GreenTrack Sustainability Dashboard</h1>
+    <p>Live campus metrics for electricity, water, and waste</p>
+  </header>
+
+  <main>
+    <section class="metrics">
+      <div class="card" id="electricity">
+        <h2>⚡ Electricity Usage</h2>
+        <p class="value">0.00 kWh</p>
+        <canvas id="electricityChart"></canvas>
+      </div>
+      <div class="card" id="water">
+        <h2>💧 Water Consumption</h2>
+        <p class="value">0.0 L</p>
+      </div>
+      <div class="card" id="waste">
+        <h2>🗑️ Waste Generated</h2>
+        <p class="value">0.0 kg</p>
+      </div>
+    </section>
+
+    <section class="leaderboard">
+      <h2>🏆 Eco Leaderboard</h2>
+      <ul id="leaderboard-list">
+        <li>Department A – 85 pts</li>
+        <li>Department B – 72 pts</li>
+        <li>Department C – 65 pts</li>
+      </ul>
+    </section>
+
+    <section class="admin-login">
+      <h2>🔐 Admin Login</h2>
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Admin Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by SSIP 2.0 • Parul University</p>
+  </footer>
+
+  <script src="GreenTrack.js"></script>
+</body>
+</html>
